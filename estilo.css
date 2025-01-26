@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(249, 249, 249);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fotoperfil{
+    float: left;
+    border-radius: 50%;
+    border: 3px solid rgb(76, 139, 195);
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+#presentacion{
+    float: right;
+    margin-right: 250px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+#pres{
+    font-size:0;
+    font-weight: normal;
+    font-size: 85%;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#contacto{
+    font-weight: normal;
+    color: black;
+    font-size: 85%;
+    text-align: justify;
+}
+
+#iconos{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+hr{
+    border:0;
+    height: 1px;
+    background-color: rgb(76, 139, 195);
+    width: 100%;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+
+#titulos{
+    font-weight:bold;
+    font-size: 160%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#texto{
+    font-size: 0;
+    font-weight: normal;
+    font-size: 95%;
+    text-align: justify;
+    margin:20px 20px;
+}
+
+#subtitulos{
+    font-weight:bold;
+    font-size: 130%;
+    font-style: italic;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+#icon2{
+    width: 50px;
+    height: 60px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.icontec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pportafolio{
+    font-size: 0;
+    font-weight: normal;
+    font-size: 95%;
+    text-align: center;
+}
+
+button{
+    border-radius: 20%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: rgb(76, 139, 195);
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(76, 139, 195);
+}
+
+
