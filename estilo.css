@@ -114,4 +114,11 @@ button:hover{
     background-color: rgb(76, 139, 195);
 }
 
+div{
+   display: bloc;
+   width:100%;
+   margin-left: 20px;
+   margin-rigth: 10px;
+   box-sizing: border-box;
+} 
 
