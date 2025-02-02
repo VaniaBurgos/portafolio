@@ -12,6 +12,12 @@ body{
     margin-right: 80px;
     margin-bottom: 30px;
 }
+
+.button-container{
+    display= flex;
+    justify-content: center;
+}
+
 #presentacion{
     float: right;
     margin-right: 250px;
