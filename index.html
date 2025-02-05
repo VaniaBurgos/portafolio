@@ -29,10 +29,15 @@
         </header>
 <hr>
         <div class= button-container>
-            <a href= #about><button>Acerca de mi</button></a>
-            <a href= #skills><button>Habilidades</button></a>
+            <ul>
+            <li><a href= #about><button>Acerca de mi</button></a></li>
+            <li><a href= #skills><button>Habilidades</button></a></li>
+                <ul>
+                    <li><a href= #tecnologias><button>Tecnologías</button></li>
+                </ul>
             <a href= #proyectos><button>Proyectos</button></a>
             <a href= #estudios><button>Estudios</button></a>
+            </ul>
         </div>
     <hr>
         <section id= "about">
@@ -47,7 +52,7 @@
         <section id= "skills">
             <h2 id="titulos">Habilidades</h2>
             <h2 id="subtitulos">Tecnologias:</h2>
-                <div class="icontec">
+                <div id="tecnologias" class="icontec" >
                     <img id="icon" src="tecnologias/python.png"/> 
                     <img id="icon2" src="tecnologias/java.png"/> 
                     <img id="icon" src="tecnologias/sql.png"/> 
