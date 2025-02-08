@@ -1,175 +1,297 @@
-<!DOCTYPE HTML>
-<html lang="es">
-    <head>
-        <meta charset="iso utf 8859-1"/>
-        <meta name="description" content="Portafolio estudiante de programación"/>
-        <meta name="keywords" content="programación, diseño web, diseño de software, java, python, html5, css3, sql, informática"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="portafolio de practicante de desarrollo de software y web"/>
+    <meta name="keywords" content="practicante desarrollador, practicante programacion, practicante desarrollo web, html5, css, python, java, sql, diseño web"/>
 
-        <link rel="stylesheet" href="estilo.css">
+    <title>Vania Burgos | Portafolio</title>
 
-        <title>Portafolio | Vania Burgos</title>
-    </head>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1>Vania Burgos Márquez</h1>
+        <h3><i>Practicante de desarrollo de software y web</i></h3>
+        <a id="contact" href="tel:+56958437920"><img src="./imagen/whatsapp.png" alt="phone" width="20" height="20" title="whatsapp"> +56958437920 </a> <span>| burgosmarquezvania@gmail.com</span>
+    </header>
 
-    <body>
-        <header>
+    <div>
+        <ul class="menu">
+            <li><a href="#about">Acerca de mi</a></li>
+            <li class="submenu">
+            <a href="#skills">Habilidades</a>
+                <ul class="submenu-items">
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#plataformas">Plataformas</a></li>
+                    <li><a href="#otros">Otros</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+            <a href="#proyectos">Proyectos</a>
+                <ul class="submenu-items">
+                    <li><a href="#web-sites">Web Sites</a></li>
+                    <li><a href="#repositories">Repositories</a></li>
+                    <li><a href="#diseño">Diseño gráfico</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+            <a href="#estudios">Estudios</a>
+                <ul class="submenu-items">
+                    <li><a href="#carrera">Carrera profesional</a></li>
+                    <li><a href="#cursos">Cursos complementarios</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+    <img src="./imagen/banner.png"06/>
+    <section id="about">
+        <h2 class="title">Acerca de mi</h2>
+        <p>Comencé a estudiar programación a mediados del 2024 de manera autodidacta, centrándome principalmente en HTML5 y CSS3. Luego de unos meses, decidí matricularme en la carrera de <strong>Ingeniería de Ejecución en Informática</strong>, para profesionalizar mis conocimientos.<br>
+        Desde entonces, además de la carrera, me gusta seguir aprendiendo a través de cursos gratuitos, relacionados tanto con la programación como con herramientas complementarias.<br>
+        Actualmente, estoy buscando oportunidades de prácticas para aplicar mis conocimientos en un entorno profesional, aprender de desarrolladores experimentados y contribuir a proyectos reales.<br>
+        En mi tiempo libre, disfruto de la música y la producción musical, actividades que me han enseñado a ser creativa y organizada, habilidades que aplico en mis proyectos de programación.</p>
+    </section>
+
+    <section>
+        <h2 class="title" id="skills">Habilidades</h2>
+        <h3 class="subtitle" id="tecnologias">Tecnologías:</h3>
+        <div class="icons">
             <figure>
-                <img id="fotoperfil" src="imagenesportafolio/fotodeperfil.JPG" alt="fotoperfil" width="240" height="228"/>
+                <img src="./imagen/html.png" alt="html" width="80" height="80" title="html"/>
+                <figcaption> 
+                    <strong>HTML5</strong><br> 
+                    <span>Desde julio 2024.</span><br>
+                    <span>Usado para proyectos web personales.</span>
+                </figcaption>
             </figure>
 
-            <section id="presentacion">
-                <h2>
-                    <p id="pres"><img id="iconos" src="iconos/usuario.png"/>Vania Burgos Marquez</p>
-                    <p id="pres"><img id="iconos" src="iconos/estudio.png"/>Estudiante de Ingenieria en Informatica</p> 
-                    <p id="pres"><img id="iconos" src="iconos/computadora.png"/>Practicante de desarrollo de software y web</p>
-                    <p id="pres"><img id="iconos" src="iconos/ubicacion.png"/>Concepcion, Chile</p>
-                    <a id="contacto" href="mailito:burgosmarquezvania@gmail.com"><img id="iconos" src="iconos/mail.png"/>burgosmarquezvania@gmail.com<br></a>
-                    <a id="contacto" href="tel:+56958437920"><img id="iconos" src="iconos/whatsapp.png"/>+56958437920</a>
-                </h2>
-            </section>
-        </header>
-<hr>
-        <div class= button-container>
-            <a href= #about><button>Acerca de mi</button></a>
-            <a href= #skills><button>Habilidades</button></a>
-            <a href= #proyectos><button>Proyectos</button></a>
-            <a href= #estudios><button>Estudios</button></a>
+            <figure>
+                <img src="./imagen/css.png" alt="css" width="50" height="50" title="css"/>
+                <figcaption>
+                    <strong>CSS3</strong><br> 
+                    <span>Desde julio 2024.</span><br>
+                    <span>Usado para proyectos web personales.</span>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imagen/java.png" alt="java" width="70" height="70" title="java"/>
+                <figcaption>
+                    <strong>Java</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación de software, proyectos académicos y personales.</span>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imagen/python.png" alt="python" width="60" height="60" title="python"/>
+                <figcaption>
+                    <strong>Python</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación de software, proyectos académicos y personales.</span>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imagen/mysql.png" alt="mysql" width="70" height="70" title="msql"/>
+                <figcaption>
+                    <strong>MySQL</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para modelado de base de datos relacionales.</span>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="./imagen/sql.png" alt="sql" width="70" height="70" title="sql"/>
+                <figcaption>
+                    <strong>SQL</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación, inserción y consultas de bases de datos relacionales.</span>
+                </figcaption>
+            </figure>
         </div>
-    <hr>
-        <section id= "about">
-            <h2 id="titulos">Acerca de mi</h2>
-            <h3>
-                <p id="texto">Comencé a estudiar programación a mediados del 2024 de manera autodidacta, centrándome principalmente en HTML5 y CSS3. Luego de unos meses, decidí matricularme en la carrera de <strong>Ingeniería de Ejecución en Informática</strong>, para profesionalizar mis conocimientos.<br>Desde entonces, además de la carrera, me gusta seguir aprendiendo a través de cursos gratuitos, relacionados tanto con la programación como con herramientas complementarias.<br>Actualmente, estoy buscando oportunidades de prácticas para aplicar mis conocimientos en un entorno profesional, aprender de desarrolladores experimentados y contribuir a proyectos reales.<br>En mi tiempo libre, disfruto de la música y la producción musical, actividades que me han enseñado a ser creativa y organizada, habilidades que aplico en mis proyectos de programación.</p>
-                <a id="contacto" href="https://github.com/VaniaBurgos" target="_blank"><img id="iconos" src="iconos/github.png"/>Perfil de Github </a>
-            </h3>
-        </section>
-        <hr>
+        <br> <hr> <br>
+        <h3 class="subtitle" id="plataformas">Plataformas:</h3>
+        <div class="icons">
+            <figure>
+                <img src="./imagen/visualstudio.png" alt="vsc" width="80" height="80" title="vscode"/>
+                <figcaption> 
+                    <strong>Visual Studio Code</strong><br> 
+                    <span>Desde julio 2024.</span><br>
+                    <span>Usado para creación de software y web académicos y personales.</span>
+                </figcaption>
+            </figure>
 
-        <section id= "skills">
-            <h2 id="titulos">Habilidades</h2>
-            <h2 id="subtitulos">Tecnologias:</h2>
-                <div id="tecnologias" class="icontec" >
-                    <img class="icon" src="tecnologias/python.png"/> 
-                    <img id="icon2" src="tecnologias/java.png"/> 
-                    <img  class="icon" src="tecnologias/sql.png"/> 
-                    <img  class="icon" src="tecnologias/html.png"/>
-                    <img  class="icon" src="tecnologias/css.png"/>
-                    <img  class="icon" src="tecnologias/mysql.png"/>
-                </div>
+            <figure>
+                <img src="./imagen/pycharm.png" alt="pycharm" width="80" height="80" title="pychar"/>
+                <figcaption> 
+                    <strong>PyCharm</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación de software académicos y personales.</span>
+                </figcaption>
+            </figure>
 
-                <h2 id="subtitulos">Plataformas:</h2>
-                    <div class="icontec">
-                    <img  class="icon" src="tecnologias/visualstudio.png"/> 
-                    <img  class="icon" src="tecnologias/pycharm.png"/> 
-                    <img  class="icon" src="tecnologias/sqlserver.png"/> 
-                    <img  class="icon" src="tecnologias/mysql.png"/>
-                    <img id="icon2" src="tecnologias/netbeans.png"/>
-                </div>
+            <figure>
+                <img src="./imagen/netbeans.png" alt="netbeans" width="80" height="80" title="netbeans"/>
+                <figcaption> 
+                    <strong>Apache NetBeans</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación de software académicos y personales.</span>
+                </figcaption>
+            </figure>
 
-                <h2 id="subtitulos">Otros:</h2>
-                    <div class="icontec">
-                    <img  class="icon" src="tecnologias/excel.png"/> 
-                    <img  class="icon" src="tecnologias/power.png"/> 
-                    <img  class="icon" src="tecnologias/picasa.png"/> 
-                </div>
-        </section>
-        <hr>
+            <figure>
+                <img src="./imagen/mysql.png" alt="MySQLWorkbench" width="80" height="80" title="MySQLWorkbench"/>
+                <figcaption> 
+                    <strong>MySQL Workbench</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para modelado de base de datos.</span>
+                </figcaption>
+            </figure>
 
-         <section  id="proyectos">
-            <h2 id="titulos">Proyectos:</h2>
-            <h2 id="subtitulos">Web Sites</h2>
-                <div class="icontec">
-                    <figure id="pportafolio">
-                        <img src="imagenesportafolio/notas.jpg" alt="mail" width="80" height="80"/>
-                        <figcaption>
-                            <p>Aplicación de notas</p>
-                            <p>JavaScript</p>
-                            <button><a href="https://aplicacion-notas-js.netlify.app/" target="_blank">ver</a></button>
-                        </figcaption>
-                    </figure>
-                </div>
-             <p id="texto"><strong>Propósito del proyecto:</strong> Crear y administrar notas de diversa índole para ayudar a la organización y optimización del tiempo del usuario.</p>
-             <p id="texto"><strong>Aprendizajes:</strong> Diseño CSS, lógica JavaScript.</p>
-             <p id="texto"><strong>Recursos utilizados:</strong> Tutorial Youtube - MoureDev. <br> Curso "Camino a Full Stack" - Udemy. <br> Chat GPT (para ahondar en conceptos necesarios para la creación del proyecto).</p>        
-         </section>
-        <hr>
-        <section>
-            <h2 id="subtitulos">Repositories</h2>
-                <div class="icontec">
-                    <figure id="pportafolio">
-                        <img src="imagenesportafolio/correo.png" alt="mail" width="64" height="64"/>
-                        <figcaption>
-                            <p>Sistema generador de correo y ID personalizado</p>
-                            <p>Python</p>
-                            <button><a href="https://github.com/VaniaBurgos/sistemaGeneradorIdCorreo" target="_blank">ver</a></button>
-                        </figcaption>
-                    </figure>
-                    
-                    <figure id="pportafolio">
-                        <img src="imagenesportafolio/biblioteca.png" alt="basedatos" width="64" height="64"/>
-                        <figcaption>
-                            <p>Base de datos biblioteca</p>
-                            <p>SQL Server</p>
-                            <button><a href="https://github.com/VaniaBurgos/BDBiblioteca" target="_blank">ver</a></button>
-                        </figcaption>
-                    </figure>
+            <figure>
+                <img src="./imagen/sqlserver.png" alt="sqlserver" width="80" height="80" title="sql-server"/>
+                <figcaption> 
+                    <strong>SQL Server</strong><br> 
+                    <span>Desde agosto 2024.</span><br>
+                    <span>Usado para creación, inserciiones y consultas de bases de datos relacionale</span>
+                </figcaption>
+            </figure>
 
-                    <figure id="pportafolio">
-                        <img src="imagenesportafolio/calculadora.png" alt="calculadora" width="64" height="80"/>
-                        <figcaption>
-                            <p>Calcuadora de notas</p>
-                            <p>Java</p>
-                            <button><a href="https://github.com/VaniaBurgos/CalculadoraNotasJava" target="_blank">ver</a></button>
-                        </figcaption>
-                    </figure>
+        </div>
+        <br> <hr> <br>
+        <h3 class="subtitle" id="otros">Otros:</h3>
+        <div class="icons">
+            <figure>
+                <img src="./imagen/excel.png" alt="excel" width="80" height="80" title="excel"/>
+                <figcaption> 
+                    <strong>Excel</strong><br> 
+                    <span>Desde marzo 2012.</span><br>
+                    <span>Nivel: intermedio.</span>
+                </figcaption>
+            </figure>
 
-                    <figure id="pportafolio">
-                        <img src="iconos/api-icon.jpg" alt="api" width="80" height="80"/>
-                        <figcaption>
-                            <p>To do Api básica</p>
-                            <p>Node.js</p>
-                            <button><a href="https://github.com/VaniaBurgos/todo-api-node.js" target="_blank">ver</a></button>
-                        </figcaption>
-                    </figure>
+            <figure>
+                <img src="./imagen/picasa.png" alt="picasa" width="80" height="80" title="picasa"/>
+                <figcaption> 
+                    <strong>Picasa</strong><br> 
+                    <span>Desde marzo 2016.</span><br>
+                    <span>Nivel: basico</span>
+                </figcaption>
+            </figure>
 
-                      <figure id="pportafolio">
-                        <img src="imagenesportafolio/webscraping.png" alt="webscraping" width="80" height="80"/>
-                        <figcaption>
-                            <p>Web Scraping para portafolio</p>
-                            <p>Python</p>
-                            <button><a href="https://github.com/VaniaBurgos/webscraping" target="_blank">ver</a></button>
-                        </figcaption>
-                      </figure>
-                </div>
-        </section>
-         <hr>
-         <section>
-            <h2 id="titulos">Diseño gráfico:</h2>
-            <p id="texto">El año 2021 emprendí un negocio de artesanías. Por este motivo, aprendí a usar herramientas como Picasa y Canvas, de manera autodidacta, para diseñar el logo, tarjetas de presentación y, en ocaciones, material para RRSS.</p> 
-            <p id="texto">Me gustaría seguir aprendiendo herramientas de este estilo en el futuro, como Photoshop o Illustrator.</p>
-                <div class="icontec">
-                    <figure id="pportafolio">
-                        <img src="imagenesportafolio/logo-ge.jpg" alt="logo" width="300" height="300"/>
-                        <figcaption>
-                            <p>Logo emprendimiento "Gata Encerrada"</p>
-                            <p>Canvas- Picasa</p>
-                        </figcaption>
-                    </figure>
-                </div>
-         </section>
-        <hr>   
-        <section id= "estudios">
-            <h2 id="titulos">Estudios:</h2>
-            <h3>
-                <p id="texto">Ingeniería de Ejecución en Informática, mención Desarrollo de Sistemas (modalidad asincrónica) | AIEP<br>2024-2028</p>
-            </h3>
-            <h2 id="subtitulos">Cursos:</h2>
-            <h3>
-                <p id="texto">Fundamentos del diseño UX | CREHANA<br>Enero-2025</p>
-                <p id="texto">Power BI | Edutin<br>Enero-2025</p>
-                <p id="texto">Wordpress | Udemy<br>Enero-2025</p>
-                <p id="texto">"Camino a Full Stack" | Udemy<br>Cursando</p>
-            </h3>
-        </section>
-        </section>
-    </body>
+            <figure>
+                <img src="./imagen/power.png" alt="power" width="80" height="80" title="power-bi"/>
+                <figcaption> 
+                    <strong>Power BI</strong><br> 
+                    <span>Desde enero 2025.</span><br>
+                    <span>Nivel: basico</span>
+                </figcaption>
+            </figure>
+        </div>
+        <br> <hr> <br>
+        <h3 class="subtitle" id="diseño">Diseño Grafico:</h3>
+        <p>El año 2021 emprendí un negocio de artesanías. Por este motivo, aprendí a usar herramientas como Picasa y Canvas, de manera autodidacta, para diseñar el logo, tarjetas de presentación y, en ocaciones, material para RRSS.<br>
+        Me gustaría seguir aprendiendo herramientas de este estilo en el futuro, como Photoshop o Illustrator.</p>
+        <figure>
+            <img src="./imagen/logo.png" alt="diseño-logo" width="300" height="300" title="logo-emprendimiento"/>
+            <figcaption>Diseño de logo de emprendimiento. Creado con Canvas y Picasa.</figcaption> 
+        </figure>
+    </section>
+
+    <section id="proyectos">
+    <h2 class="title">Proyectos</h2>
+    <h3 class="subtitle" id="web-sites">Web Sites:</h3>
+        <figure>
+            <img src="./imagen/notas.jpg" alt="notas" width="80" height="80" title="notas"/>
+            <figcaption> 
+                <strong>Aplicacion de notas</strong><br> 
+                <strong>JavaScript</strong><br>
+                <p><strong>Propósito del proyecto:</strong> Crear y administrar notas de diversa índole para ayudar a la organización y optimización del tiempo del usuario.</p>
+                <p><strong>Aprendizajes:</strong> Diseño CSS, lógica JavaScript.</p>
+                <p><strong>Recursos utilizados:</strong> Tutorial Youtube - MoureDev. <br> Curso "Camino a Full Stack" - Udemy. <br> Chat GPT (para ahondar en conceptos necesarios para la creación del proyecto).</p>  
+            </figcaption>
+        </figure>
+        <button><a href="https://aplicacion-notas-js.netlify.app/" target="_blank">ver aqui</a></button>
+    <br> <hr> <br>
+    <h3 class="subtitle" id="repositories">Repositories:</h3>
+    <div class="icons">
+        <figure>
+            <img src="./imagen/correo.png" alt="proyecto-python" width="80" height="80" title="correo"/>
+            <figcaption> 
+                <strong>Sistema generador de correo y ID personalizado</strong><br> 
+                <strong>Python</strong><br>
+                <button><a href="https://github.com/VaniaBurgos/sistemaGeneradorIdCorreo" target="_blank">ver aqui</a></button>
+            </figcaption>
+        </figure>
+       
+        <figure>
+            <img src="./imagen/biblioteca.png" alt="proyecto-sql" width="80" height="80" title="biblioteca"/>
+            <figcaption> 
+                <strong>Base de datos biblioteca</strong><br> 
+                <strong>SQL</strong><br>
+                <button><a href="https://github.com/VaniaBurgos/BDBiblioteca" target="_blank">ver aqui</a></button>
+            </figcaption>
+        </figure>
+       
+        <figure>
+            <img src="./imagen/calculadora.png" alt="proyecto-java" width="80" height="80" title="calculadora"/>
+            <figcaption> 
+                <strong>Calculadora de notas</strong><br> 
+                <strong>Java</strong><br>
+                <button><a href="https://github.com/VaniaBurgos/CalculadoraNotasJava" target="_blank">ver aqui</a></button>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="./imagen/webscraping.png" alt="proyecto-python" width="80" height="80" title="web-scraping"/>
+            <figcaption> 
+                <strong>Web Scraping para portafolio</strong><br> 
+                <strong>Python</strong><br>
+                <button><a href="https://github.com/VaniaBurgos/webscraping" target="_blank">ver aqui</a></button>
+            </figcaption>
+        </figure>
+        
+        <figure>
+            <img src="./imagen/api-icon.jpg" alt="proyecto-node" width="80" height="80" title="api-todo"/>
+            <figcaption> 
+                <strong>To do Api basica</strong><br> 
+                <strong>Node.js</strong><br>
+                <button><a href="https://github.com/VaniaBurgos/todo-api-node.js" target="_blank">ver aqui</a></button>
+            </figcaption>
+        </figure>
+    </div>
+    </section>
+
+    <section id="estudios">
+        <h2 class="title">Estudios</h2>
+        <h3 class="subtitle" id="carrera">Carrera profesional:</h3>
+        <p>Ingeniería de ejecución en informática, mención desarrollo de sistemas | AIEP</p><br>
+        <p>2024-2028</p>
+        <br> <hr> <br>
+        <h3 class="subtitle" id="cursos">Cursos:</h3>
+        <p>Fundamentos del diseño UX | Crehana</p><br>
+        <p>Enero 2025</p>
+        <p>Curso de Power BI | Edutin</p><br>
+        <p>Enero 2025</p>
+        <p>Camino a Full Stack | UDEMY</p><br>
+        <p>Enero 2025- cursando</p>
+
+
+    </section>
+
+    <section id="contacto">
+        <a href="https://github.com/VaniaBurgos" target="_blank"><img src="./imagen/github.png" alt="github" width="50" height="50" title="perfi-github"/>Perfil de Github</a><br>
+        <a id="contacto" href="tel:+56958437920"><img src="./imagen/whatsapp.png" alt="phone" width="20" height="20" title="whatsapp"> +56958437920 </a><br>
+        <span>burgosmarquezvania@gmail.com</span>
+    </section>
+        
+
+    
+
+    
+</body>
 </html>
