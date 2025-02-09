@@ -64,6 +64,10 @@ header{
     border: 1.5px solid rgb(126, 168, 182);
 }
 
+#p-menu{
+  text-align:center;
+  justify-content:center;
+}
 .menu{
     display: flex;
     margin-top: 20px;
