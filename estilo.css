@@ -90,6 +90,12 @@ header{
    border-radius: 10px;
    border: 1.5px solid rgb(126, 168, 182);
 }
+button, .menu li {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover, .menu li:hover {
+  transform: scale(1.05);
+}
 
 .submenu-items{
     display: none;
